@@ -90,8 +90,9 @@ body {
 #support {
     height: 450px;
 }
+
 #support p {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 #support button {
@@ -119,8 +120,7 @@ body {
 
 /*----------------About Page ---------------------*/
 p {
-    font-family: 'Open Sans',
-        sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*----------------Hero styles ---------------------*/
@@ -141,11 +141,26 @@ p {
 }
 
 #talents p {
-     font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*----------------Intern Works Styles ---------------------*/
+.background-box {
+    background-color: #F1F7FB;
+    width: 1162px;
+    height: 939px;
+}
 
+#interns p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#interns span {
+    background-color: #fff;
+    width: 81px;
+    height: 86px;
+    border-radius: 3px;
+}
 /*----------------Basic Info Styles ---------------------*/
 
 
