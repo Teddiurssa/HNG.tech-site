@@ -23,46 +23,53 @@
 
 <body id="page-up">
     <!---------- Container start section------------->
+
     <div class="container">
+        <!---------- Nav Bar ------------->
+
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+
+            <a class="navbar-brand " href="../index.html">
+                <img class="w-75 img-fluid" src="../img/Logo.png" alt="HNG Logo">
+            </a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent15">
+
+                <!-- Links -->
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item active text-right">
+                        <a class="nav-link text-dark mr-3 h5" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-dark mr-3 ">
+                        <a class="nav-link text-dark h5" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item text-dark mr-3">
+                        <a class="nav-link text-dark h5" href="../interns/interns.html">Interns</a>
+                    </li>
+                    <li class="nav-item text-dark mr-3 ">
+                        <a class="nav-link text-dark h5" href="../support/support.html">Support</a>
+                    </li>
+                    <li class="nav-item text-dark  mr-3 ">
+                        <a class="nav-link text-dark h5" href="../become/become.html">Become</a>
+                    </li>
+                    <li class="nav-item text-dark mr-3 ">
+                        <a class="nav-link text-dark h5" href="../learn/learn.html">Learn</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+        </nav>
+
         <div class="container-fluid">
-            <!---------- Nav Bar ------------->
-
-            <nav class="navbar navbar-toggleable-md navbar-expand-md navbar-expand-lg sticky-top">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="img-fluid w-50" src="../img/Logo.png" alt="HNG Logo">
-                </a>
-
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavId">
-                    <ul class="navbar-nav text-right">
-                        <li class="nav-item active">
-                            <a class="nav-link text-dark mr-3 h5" href="../index.html">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item text-dark mr-3 ">
-                            <a class="nav-link text-dark h5" href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item text-dark mr-3">
-                            <a class="nav-link text-dark h5" href="../interns/interns.html">Interns</a>
-                        </li>
-                        <li class="nav-item text-dark mr-3 ">
-                            <a class="nav-link text-dark h5" href="../support/support.html">Support</a>
-                        </li>
-                        <li class="nav-item text-dark  mr-3 ">
-                            <a class="nav-link text-dark h5" href="../become/become.html">Become</a>
-                        </li>
-                        <li class="nav-item text-dark mr-3 ">
-                            <a class="nav-link text-dark h5" href="../learn/learn.html">Learn</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!---------- Hero section------------->
+            <!----- Hero section------------->
             <div class="blue-box my-5 d-flex">
                 <section id="aboutHero" class="d-flex">
                     <div class="row">
@@ -96,15 +103,15 @@
                     </div>
 
                     <div class="offset-1 col-sm col-lg-4 d-flex flex-column justify-content-around">
-                        <div class="pt-5 d-flex justify-content-center">
+                        <div class="pt-5 d-flex justify-content-center shadow">
                             <img class="mr-4 img-fluid" src="../img/medal.png" alt="Medal Illustration">
                             <h1 class="">Discover Talent</h1>
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center shadow">
                             <img class="mr-4 img-fluid" src="../img/teamwork.png" alt="Teamwork Illustration">
                             <h1 class="">Connect with each other</h1>
                         </div>
-                        <div class="pb-5 d-flex justify-content-center">
+                        <div class="pb-5 d-flex justify-content-center shadow">
                             <img class="mr-4 img-fluid" src="../img/dancing.png" alt="Dancing Illustration">
                             <h1 class="">Make the Internship Fun</h1>
                         </div>
@@ -206,9 +213,9 @@
 
 
             <!---------- Footer section------------->
-            <section id="footer" class="d-flex justify-content-center align-items-center  ">
+            <section id="footer" class="d-flex justify-content-center align-items-center">
 
-                <div class="row text-white justify-content-around">
+                <div class="row text-white justify-content-around mx-4">
                     <div class="col-lg-3 locate">
                         <h4 class="mb-3 font-weight-bold">Locate Us</h4>
                         <address class="h4">
@@ -231,7 +238,6 @@
                     </div>
                 </div>
             </section>
-
             <!---------- Container End---------------->
         </div>
     </div>
