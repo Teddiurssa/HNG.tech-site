@@ -30,9 +30,9 @@ body {
 }
 
 @media (max-width: 375px) {
-   .navbar-brand{
+    .navbar-brand {
         width: 75%;
-        }   
+    }
 }
 
 /*----------------Hero/header Styles ---------------------*/
@@ -212,6 +212,15 @@ img {
     height: 468px;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
+}
+
+#footer h4 {
+    font-size: 18px;
+}
+
+#footer address,
+#footer p {
+    font-size: 14px;
 }
 
 #footer i {
