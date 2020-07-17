@@ -1,5 +1,3 @@
-/*----------------Homepage Styles ---------------------*
-
 /*----------------Base Styles ---------------------*/
 
 * {
@@ -15,6 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
+    overflow-x: hidden;
 }
 
 /*----------------Nav Bar Styles ---------------------*/
@@ -23,16 +22,6 @@ body {
     background-color: #E4EDF2;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-}
-
-.navbar .navbar-toggler-icon {
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');
-}
-
-@media (max-width: 375px) {
-   .navbar-brand{
-        width: 75%;
-        }   
 }
 
 /*----------------Hero/header Styles ---------------------*/
@@ -158,7 +147,7 @@ img {
 
 }
 
-.techs .quote+.quote-img {
+.techs .quote + .quote-img {
     width: 169px;
     height: 36px;
     margin-bottom: 50px;
@@ -169,7 +158,7 @@ img {
     /* height: 0%; */
 }
 
-.techs>.quote-cards {
+.techs > .quote-cards {
     margin-right: 53px;
 }
 
@@ -214,57 +203,11 @@ img {
     margin-right: calc(-50vw + 50%);
 }
 
+#footer address,
+#footer p {
+    font-family: Open Sans;
+}
+
 #footer i {
     font-size: 1.625em;
 }
-
-/*----------------About Page ---------------------*/
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/*----------------Hero styles ---------------------*/
-.blue-box {
-    background-color: #E4E4F2;
-    border-radius: 10px;
-}
-
-#aboutHero h1 {
-    color: #24116A;
-    font-size: 3em;
-}
-
-/*----------------Talent Styles ---------------------*/
-#talents img {
-    width: 61px;
-    height: 61px;
-}
-
-#talents p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/*----------------Intern Works Styles ---------------------*/
-.background-box {
-    background-color: #F1F7FB;
-    width: 1162px;
-    height: 939px;
-}
-
-#interns p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-#interns span {
-    background-color: #fff;
-    width: 81px;
-    height: 86px;
-    border-radius: 3px;
-}
-
-/*----------------Basic Info Styles ---------------------*/
-
-
-
-
-/*----------------Intern Page ---------------------*/
