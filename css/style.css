@@ -13,214 +13,54 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+
+}
+
+@media screen and (max-width: 375px) {
+    .input-wrapper {
+        font-size: 1px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hero-wrapper main {
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper img {
+        margin-top: 200px;
+    }
 }
 
 /*----------------Nav Bar Styles ---------------------*/
 
 .navbar {
     background-color: #E4EDF2;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+    margin: auto;
+
 }
 
 .navbar .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');
 }
 
-@media (max-width: 375px) {
-    .navbar-brand {
-        width: 75%;
-    }
-}
-
-/*----------------Hero/header Styles ---------------------*/
-#hero {
-    background-color: #fff;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    position: relative;
-}
-
-#hero .hero-bg {
+.top-head {
     background-color: #E4EDF2;
-    height: 684px;
-}
-
-#hero h1 {
-    margin-top: 50px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-}
-
-#hero h3 {
-    color: #24116A;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
-}
-
-#hero p {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 33px;
-}
-
-#autoImages {
-    margin-top: 100px;
-}
-
-/*----------------Main Styles ---------------------*/
-#main .blue-box {
-    background-color: #F1F7FB;
-    border-radius: 10px;
-    margin-top: 83px;
-}
-
-#main {
-    background-color: #fff;
-    margin-top: 54px;
-    margin-bottom: 103px;
-}
-
-.pays:not(:last-child) {
-    margin-left: 23px;
-}
-
-.payments {
-    margin-bottom: 93px;
-}
-
-#main .header {
-    margin-top: 83px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 43px;
-    margin-bottom: 75px;
-}
-
-img {
-    width: 100%;
-}
-
-#main .views {
-    border-left: 2px solid #BDBDBD;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    width: 195px;
-    /* height: 56px; */
-    padding: 5px 0px 5px 10px;
-}
-
-#main .quote-cards {
-
-    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
-    border-radius: 5px;
-    background-color: #fff;
-    position: relative;
-}
-
-#main .quote-cards svg {
-    position: absolute;
-    left: 17px;
-    top: 4px;
-}
-
-#main .techs {
-    margin-bottom: 54px;
-}
-
-.techs {
-    margin-left: 5px;
-}
-
-.techs .quote {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23.4px;
-    line-height: 33px;
-    height: 170px;
-    padding: 25px 5px;
-
-}
-
-.techs .quote+.quote-img {
-    width: 169px;
-    height: 36px;
-    margin-bottom: 50px;
-}
-
-.quote-img img {
-    width: 100%;
-    /* height: 0%; */
-}
-
-.techs>.quote-cards {
-    margin-right: 53px;
-}
-
-/*----------------Support Styles ---------------------*/
-#support {
-    /* height: 450px; */
-    margin-bottom: 152px;
-}
-
-#exampleFormControlInput1 {
-    height: 79px;
-}
-
-#support button {
-    background: #00AEFF;
-    border-radius: 3px;
-    color: #fff;
-    width: 199px;
-    height: 77px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-}
-
-.custom-checkbox {
-    margin: 15px;
-}
-
-#support img {
-    height: 26px;
-    width: 26px;
 }
 
 /*----------------Footer Styles ---------------------*/
 #footer {
     background-color: #24116A;
-    height: 468px;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+    height: -100vh;
 }
 
 #footer h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #footer address,
 #footer p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #footer i {
@@ -249,6 +89,10 @@ p {
     height: 61px;
 }
 
+#talents h1 {
+    width: 35%;
+}
+
 #talents p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -256,8 +100,6 @@ p {
 /*----------------Intern Works Styles ---------------------*/
 .background-box {
     background-color: #F1F7FB;
-    width: 1162px;
-    height: 939px;
 }
 
 #interns p {
@@ -270,10 +112,3 @@ p {
     height: 86px;
     border-radius: 3px;
 }
-
-/*----------------Basic Info Styles ---------------------*/
-
-
-
-
-/*----------------Intern Page ---------------------*/
